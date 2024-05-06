@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Final Project</title>
+		<meta charset="utf-8">
+		<script src="finalproject.js" type="text/javascript" defer></script>
+	</head>
+	<body onload="delayMainMenu(); clickableStartButton()">
+		<h1>Final Project</h1> 
+		
+		<div id="canvasDiv" style="position:relative; width;400px; height:400px">
+		<canvas id="menuCanvas" height="400" width="400" style="z-index: 5; position:absolute; left:0px; top:0px"></canvas>
+		<canvas id="healthBarCanvas" height="400" width="400" style="z-index: 4; position:absolute; left:0px; top:0px"></canvas>
+		<canvas id="textCanvas" height="400" width="400" style="z-index: 3; position:absolute; left:0px; top:0px"></canvas>
+		<canvas id="movingArrowsCanvas" height="400" width="400" style="z-index: 2; position:absolute; left:0px; top:0px"></canvas>
+		<canvas id="targetCanvas" height="400" width="400" style="background:url(background.jpg); position:relative;">
+		
+		
+		<img src="leftarrow.png" id="leftArrow" alt="Left Arrow"></img>
+		<img src="uparrow.png" id="upArrow" alt="Up Arrow"></img>
+		<img src="downarrow.png" id="downArrow" alt="Down Arrow"></img>
+		<img src="rightarrow.png" id="rightArrow" alt="Right Arrow"></img>
+		
+		<img src="fleftarrow.png" id="fLeftArrow" alt="Filled Left Arrow"></img>
+		<img src="fuparrow.png" id="fUpArrow" alt="Filled Up Arrow"></img>
+		<img src="fdownarrow.png" id="fDownArrow" alt="Filled Down Arrow"></img>
+		<img src="frightarrow.png" id="fRightArrow" alt="Filled Right Arrow"></img>
+		
+		</canvas>
+		</div>
+		
+	</body>
+</html>
